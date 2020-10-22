@@ -9,7 +9,8 @@
     android:background="@drawable/gradient">
 
     <TextView
-        android:fontFamily="@font/machina"
+        android:gravity="center"
+        android:fontFamily="monospace"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="8dp"
@@ -51,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:text="Дата релиза:"
                 android:textColor="#000"
-                android:fontFamily="@font/machina"
+                android:fontFamily="monospace"
                 android:textSize="25sp" />
 
             <TextView
@@ -59,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#000"
-                android:fontFamily="@font/machina"
+                android:fontFamily="monospace"
                 android:textSize="20sp" />
 
             <TextView
@@ -67,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Видео:"
-                android:fontFamily="@font/machina"
+                android:fontFamily="monospace"
                 android:textColor="#000"
                 android:textSize="25sp" />
 
@@ -76,14 +77,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#000"
-                android:fontFamily="@font/machina"
+                android:fontFamily="monospace"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Жанры:"
-                android:fontFamily="@font/machina"
+                android:fontFamily="monospace"
                 android:textColor="#000"
                 android:textSize="25sp" />
 
@@ -92,9 +93,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#000"
-                android:fontFamily="@font/machina"
-                android:textSize="16sp"
-                android:lineSpacingMultiplier="1.6"/>
+                android:fontFamily="monospace"
+                android:textSize="16sp"/>
 
 
         </LinearLayout>
@@ -106,7 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:text="Описание:"
-        android:fontFamily="@font/machina"
+        android:fontFamily="monospace"
         android:textColor="#000"
         android:textSize="30sp" />
 
@@ -115,15 +115,14 @@
         android:layout_height="240dp">
 
         <TextView
-            android:fontFamily="@font/machina"
+            android:fontFamily="monospace"
             android:id="@+id/overview_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:textColor="#000"
-            android:textSize="20sp"
-            android:lineSpacingMultiplier="1.6"/>
+            android:textSize="20sp"/>
 
     </ScrollView>
 
@@ -133,7 +132,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000"
-        android:fontFamily="@font/machina"
+        android:fontFamily="monospace"
         android:textSize="25sp"
         android:layout_marginStart="20dp"
         android:text="Средняя оценка: "/>

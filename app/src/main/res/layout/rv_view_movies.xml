@@ -13,6 +13,9 @@
         app:cardCornerRadius="20dp"
         android:layout_margin="10dp">
 
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
         <ImageView
             android:id="@+id/image_view_movies"
             android:layout_width="match_parent"
@@ -20,15 +23,4 @@
             android:scaleType="centerCrop"/>
 
     </androidx.cardview.widget.CardView>
-
-    <TextView
-        android:id="@+id/noMovies"
-        android:visibility="gone"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="#000"
-        android:textSize="25sp"
-        android:gravity="center"
-        android:text="No movies"/>
-
 </LinearLayout>
