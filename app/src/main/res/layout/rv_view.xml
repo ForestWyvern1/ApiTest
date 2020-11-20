@@ -19,11 +19,23 @@
             android:textColor="#000"
             android:text=""/>
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:id="@+id/rv_view_movies"
             android:visibility="visible"/>
+
+        </FrameLayout>
 
     </LinearLayout>
 

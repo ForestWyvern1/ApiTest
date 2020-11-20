@@ -50,6 +50,7 @@ class RvAdapter(val list: List<Genre>, val context: Context, val applicationCont
                         }
                     }
                 }
+                holder.itemView.progressBar.visibility = View.GONE
                 holder.itemView.rv_view_movies.adapter = RViewMovies(listPopular, this, context, list)
             }, {
                 Toast.makeText(context, "ВОВА ЛОХ", Toast.LENGTH_SHORT).show() //onError

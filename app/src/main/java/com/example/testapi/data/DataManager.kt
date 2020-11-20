@@ -9,6 +9,19 @@ class DataManager {
     private var baseContext : Context
 
     val api = Api.createApi()
+    val apisign = ApiSign.createApi()
+
+    fun isFirstLaunch(): Boolean = shared.getBoolean("isFirstLaunch", true)
+    fun endFirstLaunch(): Boolean = shared.edit().putBoolean("isFirstLaunch", false).commit()
+
+    fun rightLogin(): String = shared.getString("RightLogin", "vova@gmail.com").toString()
+    fun rightPass() : String = shared.getString("RightPass", "vovan").toString()
+
+    fun isLogin() : Boolean = shared.getBoolean("isCheckBoxActive", false)
+    fun login() : Boolean = shared.edit().putBoolean("isCheckBoxActive", true).commit()
+    fun logout() : Boolean = shared.edit().putBoolean("isCheckBoxActive", false).commit()
+
+
 
     constructor(baseContext: Context){
         this.baseContext = baseContext

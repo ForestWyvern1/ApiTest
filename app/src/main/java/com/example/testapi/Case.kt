@@ -5,4 +5,5 @@ object Case {
     var item: Result?=null
     var genre: List<Genre>?=null
     var listPopular = mutableListOf<Result>()
+    var userToken = ""
 }
